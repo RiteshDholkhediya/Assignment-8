@@ -18,15 +18,15 @@ int main(){
             }
 
             else{
-
-                if(j>=i-3 && j<=19-c){
-                    if(i==3 && j==6){
+                
+                if(i==3 && j==6){
                         printf("MySirG");
-                    }
-                    if(i==3 && (j>=6 && j<=11)){
-                        continue;
-                    }
-
+                 }
+                if(i==3 && (j>=6 && j<=11)){
+                    continue;
+                }
+                
+                if(j>=i-3 && j<=19-c){
                     printf("*");
                 }
                 else
